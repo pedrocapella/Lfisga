@@ -1,35 +1,73 @@
+#cabecalho{
+    background-image: url(./Img/Earth3.jpg);
+    background-size: cover;
+    background-position: right;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#lead{
+    color:#E6E6E6;
+    padding-left: 50px;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    font-size: 2em;
+}
+
+#sublead{
+    color: #E6E6E6;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    font-size: 1em;
+}
+
+nav.navegacao{
+    margin-top: 5px;
+    background-color: #7d8519;
+    height: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 90%;
+}
+nav.navegacao a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav.navegacao ul{
+    
+    display: table;
+    margin: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 95%;
+}
+nav.navegacao li{
+    height: 10px;    
+    
+}
+
+nav.navegacao ul li {
+    list-style-type: none;
+    display: table-cell;
+    width: 25%;
+    text-align: center;
+    
+}
+nav.navegacao li:hover{
+    background-color: #585a5a;
+}
+
+
 #mapa{
-    width: auto;
-    height:600px;
-    top: 100px;
+    width: 100%;
+    height:550px;
+    top: 5px;
     bottom: auto;
     
 }
 
-#menususp{
-    top: 0px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 10px;
-    font-style: normal;
-    padding-left: 10px;
-    position: fixed;
-    left: 2px;
-    top: 1px;
-}
 
-.menu{
-    display: inline-block;
-    margin: 1px;
-    left: 300px;
-    position:relative;
-    padding-left: 20px;
-    padding-right: 20px;
-    
-    
-    
-}
 
-.titulo{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
