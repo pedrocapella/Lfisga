@@ -1,0 +1,109 @@
+
+
+.a{
+    position: absolute;
+    top: 115px;
+    left: 1px;
+    width: 150px;
+    height: 450px;
+}
+
+.b{
+    position: absolute;
+    top: 115px;
+    left: 265px;
+    width: 600px;
+    height: 450px;
+}
+
+.c{
+    position: absolute;
+    top: 115px;
+    left: 950px;
+    width: 500px;
+    height: 450px;
+}
+
+
+
+.nome{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    width: 150px;
+    border-bottom: 2px green solid;
+    border-top: 2px green solid;
+    color: black;
+    position: relative;
+    left: 50px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+  
+}
+
+.contatos{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    text-align: center;
+    color: black;
+    position: relative;
+    left: 50px;
+   
+}
+
+.titulos{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    border-bottom: 2px green solid;
+    border-top: 2px green solid;
+    color: black;
+    position: relative;
+    width: auto;
+    padding: 4px;
+   
+}
+
+
+.texto1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    text-align: justify;
+    color: black;
+    position: relative;
+    padding: 15px;
+    line-height: 35px;
+    
+   
+}
+
+.fotos{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    text-align: justify;
+    color: black;
+    position: relative;
+    padding: 15px;
+    line-height: 35px;
+    border: 2px green solid;
+    width: 450px;
+    height: 400px;
+    
+   
+}
+
+
+
+.organograma{
+    align-content: center;
+    position: absolute;
+    width: 100px;    /* largura da imagem */
+    height: 50px;   /*  altura da imagem  */
+    margin-top: 10px; /* margem do topo */
+}
+

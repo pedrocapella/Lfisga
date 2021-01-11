@@ -1,5 +1,5 @@
 #cabecalho{
-    background-image: url(./Img/Earth3.jpg);
+    background-image: url(./fundo.jpg);
     background-size: cover;
     background-position: right;
     color: white;
@@ -8,7 +8,7 @@
 
 #lead{
     color:#E6E6E6;
-    padding-left: 50px;
+    padding-left: 10px;
     margin-top: 0px;
     padding-top: 5px;
     padding-bottom: 0px;
@@ -18,7 +18,7 @@
 #sublead{
     color: #E6E6E6;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 50px;
+    padding-left: 10px;
     font-size: 1em;
 }
 
@@ -28,7 +28,7 @@ nav.navegacao{
     height: 20px;
     padding-left: 0px;
     padding-right: 0px;
-    width: 90%;
+    width: 100%;
 }
 nav.navegacao a{
     color: white;
@@ -41,7 +41,6 @@ nav.navegacao ul{
     display: table;
     margin: 0px;
     padding-top: 2px;
-    padding-bottom: 2px;
     width: 95%;
 }
 nav.navegacao li{

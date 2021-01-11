@@ -10,13 +10,14 @@ var coordDIV = document.createElement('div');
     coordDIV.id = 'mapaCoordDIV';
     coordDIV.style.position = 'absolute';
     coordDIV.style.bottom = '20px';
-    coordDIV.style.left = '1366px';
     coordDIV.style.zIndex = '900';
     coordDIV.style.color = 'black';
     coordDIV.style.fontFamily = 'calibri';
     coordDIV.style.fontSize = '10pt';
     coordDIV.style.backgroundColor = 'white';
     coordDIV.style.opacity = '0.6';
+    coordDIV.style.Right='1px';
+    
 
 
     document.getElementById('mapa').appendChild(coordDIV);
@@ -205,7 +206,7 @@ var agro_fisga = L.geoJSON(agroflorestaz,{fillColor:"rgb(88, 155, 33)",fillOpaci
     onEachFeature: function (feature, layer) { 
         let agro_fisga_ha = feature.properties.AreaHa;
         let agro_fisga_per = feature.properties.Perimetro;
-        layer.bindPopup('<h5>Área em Ha: ' + agro_fisga_ha + '</h5> <h5>Perimetro (m): '+agro_fisga_per+'</h5> <h5>Mais info:</h5>'); 
+        layer.bindPopup('<h5>Área em Ha: ' + agro_fisga_ha + '</h5> <h5>Perimetro (m): '+agro_fisga_per+'</h5>' ); 
     //layer.on ('mouseover', function () {layer.openPopup();})
     }})
     //.addTo(map)
