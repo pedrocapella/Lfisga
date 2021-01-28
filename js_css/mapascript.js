@@ -9,8 +9,8 @@ var map = L.map('mapa',{ center: [41.0501354499781, -8.434293459256834], zoom: 1
 var coordDIV = document.createElement('div');
     coordDIV.id = 'mapaCoordDIV';
     coordDIV.style.position = 'absolute';
-    coordDIV.style.bottom = '20px';
-    coordDIV.style.left = '1366px';
+    coordDIV.style.bottom = '17px';
+    coordDIV.style.right = '0px';
     coordDIV.style.zIndex = '900';
     coordDIV.style.color = 'black';
     coordDIV.style.fontFamily = 'calibri';
@@ -241,7 +241,7 @@ var galpao_compostagem_fisga = L.geoJSON(galpao_compostagemz,{fillColor:"purple"
     }});
 
 
-var north = L.control({position: "topleft"});
+var north = L.control({position: "bottomleft"});
     north.onAdd = function(map) {
         var div = L.DomUtil.create("div", "info legend");
         div.innerHTML = '<img src="icons/north.png">';
