@@ -190,6 +190,14 @@ var lazer_fisga= L.geoJSON(lazerz,
         return L.marker(latlng,{radius:4, icon:recreation_Icon}).bindPopup( "<h5>Item: "+att.Item+"</h5><h5>Especificação: "+att.Especificação+"</h5><h5> Estado de conservação: "+att.Conserv+"</h5><h5>Localização: "+att.Local+"</h5>");
     };
 
+var arvoresaf_fisga= L.geoJSON(arvoresafz,
+    {pointToLayer:fisga_arvoresaf});
+    
+    function fisga_arvoresaf(geoJSON, latlng){
+        var att=geoJSON.properties;
+        return L.circleMarker(latlng,{radius:0.1,}).bindPopup( "<h5>Item:");
+    };
+
 var limites_fisga = L.geoJSON(limitesz,{fillColor:"rgb(243, 169, 104)",fillOpacity:0.30,color:"rgb(243, 169, 104)",weight: 2,
     onEachFeature: function (feature, layer) { 
         let nomef = feature.properties.Nome;
@@ -205,7 +213,7 @@ var agro_fisga = L.geoJSON(agroflorestaz,{fillColor:"rgb(88, 155, 33)",fillOpaci
     onEachFeature: function (feature, layer) { 
         let agro_fisga_ha = feature.properties.AreaHa;
         let agro_fisga_per = feature.properties.Perimetro;
-        layer.bindPopup('<h5>Área em Ha: ' + agro_fisga_ha + '</h5> <h5>Perimetro (m): '+agro_fisga_per+'</h5> <h5>Mais info:</h5>'); 
+        layer.bindPopup('<h5>Área em Ha: ' + agro_fisga_ha + '</h5> <h5>Perimetro (m): '+agro_fisga_per+'</h5> <h5><FONT COLOR="#000000"><a href="./paginas/agrofloresta.html">Mais info:</a></h5>'); 
     //layer.on ('mouseover', function () {layer.openPopup();})
     }})
     //.addTo(map)
@@ -264,6 +272,7 @@ var layers = {
     'Galpão de compostagem' : galpao_compostagem_fisga,
     'Inventariar' : propextras_fisga,
     'Eucaliptal' : eucaliptal_fisga,
+    'Arvores Agrofloresta' : arvoresaf_fisga,
     
     
     
