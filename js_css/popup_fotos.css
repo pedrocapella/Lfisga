@@ -29,6 +29,7 @@
     font-style: normal;
     font-size: 15px;
     }
+
     
     .thumbnail span img{ /*CSS for enlarged image*/
     border-width: 0;
@@ -41,5 +42,49 @@
     position: fixed;
     top: 190px;
     left: 300px; /*position where enlarged image should offset horizontally */
+    z-index: 50;
+    }
+
+
+
+    .miniatura img{
+    
+    margin: 0 5px 5px 0;
+    }
+    
+    .miniatura:hover{
+    background-color: transparent;
+    }
+    
+    .miniatura:hover img{
+    border: 1px solid #A06A29;
+    }
+    
+    .miniatura span{ /*CSS for enlarged image*/
+    position:fixed;
+    /*background-color: white;*/
+    padding: 5px;
+    left: -1000px;
+    /*border: 1px dashed rgb(12, 12, 12);*/
+    visibility: hidden;
+    color:#A06A29;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    }
+
+    
+    .miniatura span img{ /*CSS for enlarged image*/
+    border-width: 0;
+    padding: 2px;
+    }
+    
+    .miniatura:hover span{ /*CSS for enlarged image*/
+    text-align: center;
+    visibility: visible;
+    position: fixed;
+    top: 215px;
+    left: 950px; /*position where enlarged image should offset horizontally */
     z-index: 50;
     }

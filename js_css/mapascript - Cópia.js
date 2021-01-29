@@ -131,7 +131,7 @@ var anexos_fisga= L.geoJSON(anexosz,
 
     function fisga_anexos(geoJSON, latlng){
         var att=geoJSON.properties;
-        return L.marker(latlng,{radius:4, icon:anexo_Icon}).bindPopup( "<h5>Item: "+att.Item+"</h5><h5>Especificação: "+att.Especificação+"</h5><h5> Estado de conservação: "+att.Conserv+"</h5><h5>Localização: "+att.Local+"</h5><h5><FONT COLOR='#000000'><a href='./paginas/inventario_es_anexos.html'>Mais info:</a></h5>");
+        return L.marker(latlng,{radius:4, icon:anexo_Icon}).bindPopup( "<h5>Item: "+att.Item+"</h5><h5>Especificação: "+att.Especificação+"</h5><h5> Estado de conservação: "+att.Conserv+"</h5><h5>Localização: "+att.Local+"</h5>");
     };
 
 var pocos_fisga= L.geoJSON(pocosz,
@@ -139,7 +139,7 @@ var pocos_fisga= L.geoJSON(pocosz,
 
 function fisga_pocos(geoJSON, latlng){
     var att=geoJSON.properties;
-    return L.marker(latlng,{radius:4, icon:poco_Icon}).bindPopup( "<h5>Item: "+att.Item+"</h5><h5>Especificação: "+att.Especificação+"</h5><h5> Estado de conservação: "+att.Conserv+"</h5><h5>Localização: "+att.Local+"</h5><h5><FONT COLOR='#000000'><a href='./paginas/inventario_es_pocos.html'>Mais info:</a></h5>");
+    return L.marker(latlng,{radius:4, icon:poco_Icon}).bindPopup( "<h5>Item: "+att.Item+"</h5><h5>Especificação: "+att.Especificação+"</h5><h5> Estado de conservação: "+att.Conserv+"</h5><h5>Localização: "+att.Local+"</h5>");
 };
 
 var camposcultivo_fisga= L.geoJSON(camposz,
@@ -155,7 +155,7 @@ var canastros_fisga= L.geoJSON(canastrosz,
 
 function fisga_canastros(geoJSON, latlng){
     var att=geoJSON.properties;
-    return L.marker(latlng,{radius:4, icon:corn_Icon}).bindPopup( "<h5>Item: "+att.Item+"</h5><h5>Especificação: "+att.Especificação+"</h5><h5> Estado de conservação: "+att.Conserv+"</h5><h5>Localização: "+att.Local+"</h5><h5><FONT COLOR='#000000'><a href='./paginas/inventario_es_canastros.html'>Mais info:</a></h5>");
+    return L.marker(latlng,{radius:4, icon:corn_Icon}).bindPopup( "<h5>Item: "+att.Item+"</h5><h5>Especificação: "+att.Especificação+"</h5><h5> Estado de conservação: "+att.Conserv+"</h5><h5>Localização: "+att.Local+"</h5>");
 };
 
 var casas_fisga= L.geoJSON(casasz,
@@ -163,7 +163,7 @@ var casas_fisga= L.geoJSON(casasz,
     
     function fisga_casas(geoJSON, latlng){
         var att=geoJSON.properties;
-        return L.marker(latlng,{radius:4, icon:house_Icon}).bindPopup( "<h5>Item: "+att.Item+"</h5><h5>Especificação: "+att.Especificação+"</h5><h5> Estado de conservação: "+att.Conserv+"</h5><h5>Localização: "+att.Local+"</h5><h5><FONT COLOR='#000000'><a href='./paginas/inventario_es_casas.html'>Mais info:</a></h5>");
+        return L.marker(latlng,{radius:4, icon:house_Icon}).bindPopup( "<h5>Item: "+att.Item+"</h5><h5>Especificação: "+att.Especificação+"</h5><h5> Estado de conservação: "+att.Conserv+"</h5><h5>Localização: "+att.Local+"</h5>");
     };
 
 var porteiras_fisga= L.geoJSON(porteirasz,
@@ -171,7 +171,7 @@ var porteiras_fisga= L.geoJSON(porteirasz,
     
     function fisga_porteiras(geoJSON, latlng){
         var att=geoJSON.properties;
-        return L.marker(latlng,{radius:4, icon:gate_Icon}).bindPopup( "<h5>Item: "+att.Item+"</h5><h5>Especificação: "+att.Especificação+"</h5><h5> Estado de conservação: "+att.Conserv+"</h5><h5>Localização: "+att.Local+"</h5><h5><FONT COLOR='#000000'><a href='./paginas/inventario_es_porteiras.html'>Mais info:</a></h5>");
+        return L.marker(latlng,{radius:4, icon:gate_Icon}).bindPopup( "<h5>Item: "+att.Item+"</h5><h5>Especificação: "+att.Especificação+"</h5><h5> Estado de conservação: "+att.Conserv+"</h5><h5>Localização: "+att.Local+"</h5>");
     };
 
 var esgotos_fisga= L.geoJSON(esgotosz,
@@ -179,7 +179,7 @@ var esgotos_fisga= L.geoJSON(esgotosz,
     
     function fisga_esgotos(geoJSON, latlng){
         var att=geoJSON.properties;
-        return L.marker(latlng,{radius:4, icon:sewer_Icon}).bindPopup( "<h5>Item: "+att.Item+"</h5><h5>Especificação: "+att.Especificação+"</h5><h5> Estado de conservação: "+att.Conserv+"</h5><h5>Localização: "+att.Local+"</h5><h5><FONT COLOR='#000000'><a href='./paginas/inventario_es_esgotos.html'>Mais info:</a></h5>");
+        return L.marker(latlng,{radius:4, icon:sewer_Icon}).bindPopup( "<h5>Item: "+att.Item+"</h5><h5>Especificação: "+att.Especificação+"</h5><h5> Estado de conservação: "+att.Conserv+"</h5><h5>Localização: "+att.Local+"</h5>");
     };
 
 var lazer_fisga= L.geoJSON(lazerz,

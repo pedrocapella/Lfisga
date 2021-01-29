@@ -62,8 +62,7 @@ nav.navegacao ul li {
     display: table-cell;
     width: 25%;
     text-align: center;
-    color: #E2BB8B;
-    
+        
 }
 nav.navegacao li:hover{
     background-color: #585a5a;

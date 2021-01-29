@@ -1,5 +1,4 @@
 
-
 .a{
     position: fixed;
     top: 125px;
@@ -9,7 +8,7 @@
 }
 
 .b{
-    position: fixed;;
+    position: fixed;
     top: 125px;
     left: 265px;
     width: 600px;
@@ -108,7 +107,7 @@
     position: relative;
     padding: 15px;
     line-height: 35px;
-    border: 2px green solid;
+    ;
     width: 450px;
     height: 400px;
     
@@ -130,6 +129,44 @@
     display: inline-block;
   
 }
+
+.tabela_casas{
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    top: 0px;
+    left: 265px;
+    width: 600px;
+    
+    color: #E2BB8B;
+    border: 2px #A06A29 solid;
+    
+}
+
+.table1 {
+    text-align: center;
+    border-bottom: 2px #A06A29 solid;
+    border-top: 2px #A06A29 solid; 
+    
+    
+}
+.table2 {
+    text-align: center ;
+    border-bottom: 2px #A06A29 solid;
+    font-size: 14px;
+    font-weight: bold;
+    height: 25px;
+    
+}
+.table4 {
+    text-align: center ;
+    font-size: 12px;
+    height: 25px;
+}
+
+    
+
 
 
 
